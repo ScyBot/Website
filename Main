@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sebastian Salvo</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+  <div id="content">
+    <div id="header">
+      <div id="logo">
+        <h1>Sebastian Salvo</h1>
+        <h4>Working towards a new tomorrow with Robotics and AI</h4>
+      </div>
+      <div id="links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="mainimg">
+      <h3>Big Picture</h3>
+      <h4>A better world</h4>
+    </div>
+    <div id="contentarea">
+      <div id="leftbar">
+        <h2>hello!</h2>
+        <p>
+	        My name is Sebastian Salvo and I am a student in the Robotics Engineering program at Worcester Polytechnic Institute!
+        </p>
+        <br />
+        <p> 
+	        
+        </p>
+        <br />
+        <a href="#">more ></a><br />
+        <br />
+      </div>
+      <div id="rightbar">
+        <h2>Recent News</h2>
+        <p><span class="orangetext">Current</span><br />
+          Working on completing Unified Robotics II 2002 at WPI, making a website and a GitHub account. <br />
+          <br />
+          <span class="orangetext">3/06/2015</span><br />
+          Completed Unified Robotics I 2001 at WPI in term C at WPI. <br />
+          <br />
+          <span class="orangetext">12/18/2014</span><br />
+           Completed Introduction to Robotics 1001 in term B at WPI.</p>
+      </div>
+    </div>
+    <div id="bottom">
+      <div id="email"><a href="mailto:sdsalvo@wpi.edu">sdsalvo@wpi.edu</a></div>
+      <div id="validtext">
+        <p>Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
