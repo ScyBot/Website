@@ -83,6 +83,7 @@ form {
 
 .description{
 	border: 2px solid black;
+	padding-left: 10px;
 	float: right;
 	width: 1000px;
 	background-color: lightgrey;
