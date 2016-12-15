@@ -4,6 +4,18 @@
 	<meta charset="UTF-8" />
 	<title> MassTour </title>
     	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script>
+		var getActive = browser.tabs.query({active: true, currentWindow: true});
+		getActive.then(setCookie);
+
+		function setCookie(tabs) {
+  			browser.cookies.set({
+    				url: tabs[0].url,
+    				name: "delicious_cookie",
+    				value: "choco"
+  			});
+		}
+	</script>
 </head>
 
 <body>
@@ -16,6 +28,7 @@
 		<input type="text" placeholder="Search..." required>
 		<input type="button" value="Search">
 	</form>
+	<div class="demo"></div>
 	<script>
 
 function loadXMLDoc() {
@@ -49,7 +62,7 @@ function loadXMLDoc() {
 		var test = document.getElementById("image");
 		var text = document.getElementById("text");
 
-		text.addEventListener("mouseover", function(event) {
+		text.addEventListener("click", function(event) {
 			event.target.style.color="#000000";	
 			setTimeout(function() {
 				event.target.style.color = "";
