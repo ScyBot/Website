@@ -20,7 +20,7 @@
 
 <body>
 	<nav class="navigation">
-		<ul><a href="index.html" class="menu">Main</a>	
+		<ul><a href="index.html" class="menu">Index</a>	
 		    <a href="README.md" class="menu">About</a>	
 		    <a href="package.json" class="menu">Inner Workings</a></ul>
 	</nav>
@@ -59,16 +59,21 @@ function loadXMLDoc() {
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Massachusetts_US_Congressional_District_8_(since_2013).tif/lossless-page1-400px-Massachusetts_US_Congressional_District_8_(since_2013).tif.png"/>
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Massachusetts_US_Congressional_District_9_(since_2013).tif/lossless-page1-400px-Massachusetts_US_Congressional_District_9_(since_2013).tif.png"/>
 	<script>
-		var test = document.getElementById("image");
-		var text = document.getElementById("text");
-
 		text.addEventListener("click", function(event) {
-			event.target.style.color="#000000";	
+				
 			setTimeout(function() {
 				event.target.style.color = "";
 			}, 500);
 		}, false);
 	</script>
 	</div>
+	<style>
+		.hidden{
+			display: none;
+		}
+	</style>
+	<p class='hidden'>
+		
+	</p>
 
 </body>
