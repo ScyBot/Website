@@ -71,10 +71,10 @@ function loadXMLDoc() {
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Massachusetts_US_Congressional_District_9_(since_2013).tif/lossless-page1-400px-Massachusetts_US_Congressional_District_9_(since_2013).tif.png"/>
 	<script>
 		var a = document.getElementById("all");
-		var hidden = document.getElementById("hidden");
+		var hidden = document.getElementByClassName("hidden");
 		
 		a.addEventListener("click", function(event) {
-			document.getElementById('hidden').style.display='block';
+			document.getElementByClassName('hidden').style.display='block';
 		}, 100);
 	</script>
 	</div>
