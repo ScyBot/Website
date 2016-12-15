@@ -60,7 +60,7 @@ body > article
 form {
 	width: 500px;
 	margin: auto;
-	text-align: right;
+	float: right;
 }
 
 .search {
