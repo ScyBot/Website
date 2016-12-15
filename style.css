@@ -3,51 +3,28 @@
  * done by Sebastian Salvo 
  */
 
-
-
 body
 {
-
-	
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	background-color: #42BBAB;
-
-
 }
-
-
-
 
 body > article
-{
-
-	
-text-align: center;
-
-
+{	
+	text-align: center;
 	color: white;
-
-
 }
-
-
-
-
 
 .place
 {
-
-
 	margin: 10px 0;
 	float: right;
 	color: white;
 	text-align: center;
 	font-size: 2.5em;
 	font-weight: bold;
-	text.transform: uppercase;
+	text-transform: uppercase;
 	font-family: "Times New Roman", Times, serif;
-
-
 }
 
 .orig
