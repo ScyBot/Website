@@ -1,0 +1,13 @@
+{
+	"name": "cs4241-fp-scybot",
+	"version": "0.0.1",
+	"description": "WPI CS 4241 Final Project",
+	"author": "Sebastian Salvo",
+	"private": "true",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+	}
+}
+

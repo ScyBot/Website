@@ -1,0 +1,105 @@
+
+/* these are styles designed for my Final Project of webware development
+ * done by Sebastian Salvo 
+ */
+
+
+
+body
+{
+
+	
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	background-color: #42BBAB;
+
+
+}
+
+
+
+
+body > article
+{
+
+	
+text-align: center;
+
+
+	color: white;
+
+
+}
+
+
+
+
+
+.place
+{
+
+
+	margin: 10px 0;
+	float: right;
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	text.transform: uppercase;
+	font-family: "Times New Roman", Times, serif;
+
+
+}
+
+.orig
+{
+	border: solid red;
+	margin: 0px 0px 25px 0px;
+}
+
+.navigation
+{
+	border-left: 6px solid green;
+	border-bottom: 2px dotted;
+	border-top: 2px dotted;
+	border-right: 6px solid green;
+	background-color: lightgrey;
+	width: 1000px;
+	padding: 0px;
+	margin: 0px 0px 0px 140px;
+}
+
+.menu {
+	margin: 0px 250px 0px 0px;
+	font-family: "Garamond", serif;
+}
+
+.all
+{
+	background-color: white;
+	border: 2px dashed grey;
+}
+
+form {
+	width: 500px;
+	margin: auto;
+	text-align: right;
+}
+
+.search {
+	padding: 8px 15px;
+	background rgba(50, 50, 50, 0.2);
+	border: 0px solid #dbdbdb;
+}
+.button {
+	position: relative;
+	padding: 6px 15px;
+	left: -8px;
+	border: 2px solid #207cca;
+	background-color: #207cca;
+	color: #fafafa;
+}
+.button:hover {
+	background-color:#fafafa;
+	color: #207cca;
+}
+

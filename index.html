@@ -1,0 +1,61 @@
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title> MassTour </title>
+    	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+	<nav class="navigation">
+		<ul><a href="index.html" class="menu">Main</a>	
+		    <a href="README.md" class="menu">About</a>	
+		    <a href="package.json" class="menu">Inner Workings</a></ul>
+	</nav>
+	<form>
+		<input type="text" placeholder="Search..." required>
+		<input type="button" value="Search">
+	</form>
+	<script>
+
+function loadXMLDoc() {
+	var xhttp = new XMLRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			document.getElementById("demo").innerHTML = this.responseText;
+		}
+	}
+	xhttp.open("GET", "index.html", true);
+	xhttp.send();
+}
+	</script>
+	<!--<img src="http://maacd.org/index_files/image4201.png" class="image"></img>-->
+	<img src="C:\Users\Sebastian\Desktop\mass.png" class="orig"/>
+	<p class="place">
+		Massachusetts
+	</p>
+	<!--<img src="http://magenweb.org/images/BerkshireTowns.gif" class="berk"></img>-->
+	<div class = "all">
+		<img src="C:\Users\Sebastian\Desktop\1st.png"/>
+		<img src="C:\Users\Sebastian\Desktop\2nd.png"/>
+		<img src="C:\Users\Sebastian\Desktop\3rd.png"/>
+		<img src="C:\Users\Sebastian\Desktop\4th.png"/>
+		<img src="C:\Users\Sebastian\Desktop\5th.png"/>
+		<img src="C:\Users\Sebastian\Desktop\6th.png"/>
+		<img src="C:\Users\Sebastian\Desktop\7th.png"/>
+		<img src="C:\Users\Sebastian\Desktop\8th.png"/>
+		<img src="C:\Users\Sebastian\Desktop\9th.png"/>
+	<script>
+		var test = document.getElementById("image");
+		var text = document.getElementById("text");
+
+		text.addEventListener("mouseover", function(event) {
+			event.target.style.color="#000000";	
+			setTimeout(function() {
+				event.target.style.color = "";
+			}, 500);
+		}, false);
+	</script>
+	</div>
+
+</body>
