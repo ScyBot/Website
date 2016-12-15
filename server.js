@@ -7,7 +7,6 @@ var http = require('http')
 
 var server = http.createServer (function (req, res) {
 	var uri = url.parse(req.url);
-	var query = url.parse(req.url).query;
 	console.log(uri.pathname);
 
 	switch( uri.pathname ) {
