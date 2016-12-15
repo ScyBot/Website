@@ -44,3 +44,24 @@ function sendFile(res, filename, contentType) {
 		res.end(content, 'utf-8')
 	})
 }
+
+/* function handleSearch(res, uri) {
+	var contentType = 'text/html'
+  	res.writeHead(200, {'Content-type': contentType})
+	var contentType = 'text/html'
+   	, html = ''
+
+  	html = html + '<html>'
+
+  	html = html + '<head>'
+  	// You could add a CSS and/or js call here...
+  	html = html + '<link rel="stylesheet" type="text/css" href="style.css"/>'
+  	html = html + '</head>'
+
+  	html = html + '<body>'
+  	html = html + '<h1> Search </h1>'
+  	html = html + '<form action="search" method="GET">'
+  	html = html + '<input type="text" name="search" />'
+  	html = html + '<button type="submit">Search</button>'
+  	html = html + '</form>'
+	*/
