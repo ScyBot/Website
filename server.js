@@ -1,7 +1,6 @@
 var http = require('http')
  , fs 	 = require('fs')
  , url   = require('url')
- , path  = require('pathname')
  , qs    = require('querystring')
  , port  = 8080;
 
