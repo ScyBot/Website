@@ -54,6 +54,7 @@ body > article
 {
 	background-color: white;
 	border: 2px dashed grey;
+	width: 400px;
 }
 
 form {
